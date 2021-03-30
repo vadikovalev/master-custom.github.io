@@ -1,0 +1,276 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 2400px;
+    height: 2160px;
+    background-image: url(/img/group55.jpg);
+    background-repeat: no-repeat ;
+    margin: 0 auto;
+    background-position: top;
+    background-color: #474747;
+    
+
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 2400px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.603);
+    position: sticky;
+    top: 0;
+    align-items: center;
+
+    
+}
+section {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #292929;
+    max-width: 2400px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.header_logo {
+    display: flex;
+    padding-left: 60px;
+    
+}
+.logo_name {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    color: white;
+    font-family: 'Sen', sans-serif;
+    font-weight: 300;
+}
+.logo_name h2 {
+    padding-right: 33px;
+    line-height: 10px;
+}
+.header_nav {
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+.header_nav a {
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 24px;
+    color: white;
+}
+.header_nav a:hover {
+    color:#38B6B5 ;
+    font-size: 24px;
+}
+.header_nav a:active {
+    color:#70cece ;
+}
+
+
+/* --section_main---- */
+
+
+
+.section_main {
+    margin: 0 auto;
+    max-width: 2400px;
+    height: 1100px;
+
+}
+.main_page {
+    margin: 0 auto;
+    max-width: 2400px;
+    padding: 680px 0px 0px 60px;
+}
+.main_page h1 {
+    color: white;
+    font-size: 54px;
+}
+.main_page p {
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    line-height: 70px;
+    padding-left: 20px;
+}
+.main_page ul {
+    list-style-image: url(/img/Ellipse\ 5.png);
+    padding-left: 50px;
+}
+
+/* ----section_join---------- */
+
+.h-33 {
+    max-width: 2400px;
+    height: 15px;
+    background-color: #38B6B5;
+    margin: 0 auto;
+}
+.join {
+    max-width: 2400px;
+    height: 250px;
+    background-color:#292929 ;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+    
+       
+}
+.join p {
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+}
+.join h3 {
+    font-size: 34px;
+    font-weight: 400;
+    color: white;
+    padding-top: 30px;
+}
+.join span {
+    color: #38B6B5;
+}
+.join a  {
+    text-decoration: none;
+}
+.join a span:hover {
+    color: #70cece;
+}
+
+/* }-----section_defence------ */
+
+.section_defence {
+    background-color: #EAEAEA;
+    max-width: 2400px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+
+
+
+.def365 {
+    height: 200px;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+    
+
+}
+.def365 h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #585858;
+    padding-top: 30px;
+}
+.def365 p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #585858;
+    padding-top: 15px;
+
+}
+
+.mg {
+    max-width: 2400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+
+.change365 , .deliver{
+    max-width: 570px;
+    height: 452px;
+    padding-top: 100px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.change365 h3 , .deliver h3{
+    font-size: 34px;
+    font-weight: 500;
+    color: #585858;
+    width: 400px;
+    line-height: 40px;
+    margin: 0 auto;
+    
+}
+.change365 p , .deliver p{
+    font-size: 22px;
+    font-weight: 300;
+    color: #585858;
+    padding-top: 15px;
+    
+}
+.change365 span {
+    color: #38B6B5;
+}
+.change365 a {
+    text-decoration: none;
+}
+.logo_mid {
+    position: absolute;
+    padding: 0px 1000px 80px ;
+    margin: 0 auto;
+    
+}
+
+
+/* ----footer----- */
+
+
+
+.foot_nav {
+    display: flex;
+    width: 1100px;
+    /* padding-right: 380px; */
+    
+    justify-content: space-between;
+    padding-left: 60px;
+    
+
+}
+.foot_nav a {
+    text-decoration: none;
+    
+}
+
+.foot_nav p {
+    color: white;
+    font-size: 18px;
+    line-height: 5px;
+    padding-top: 30px;
+}
+.foot_nav h4 {
+    color: #38B6B5;
+    font-size: 22px;
+    padding-top: 30px;
+}
+
+.foot_nav h4:hover {
+    color: #70cece;
+}
+.foot_nav p:hover {
+    color: #38B6B5;
+}
+
+
+
+

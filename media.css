@@ -1,0 +1,131 @@
+@media screen and (max-width:390px) {
+    .header_logo {
+        display: none;
+    }
+    header {
+      
+        display: none;
+        
+    }
+    body {
+        background-image: url(/img/klipartz.com\ \(14\).png);
+        
+        margin: 0 auto;
+
+    }
+    .main_page h1 {
+        font-size: 20px;
+       
+       text-align: center;
+       padding-right: 60px;
+       margin: 0;
+    }
+    .main_page p {
+        font-size: 14px;
+        line-height: 35px;
+        padding-top:10px ;
+        
+    }
+    .main_page {
+        margin: 0 auto;
+        padding-top: 450px;
+
+    }
+    .section_main {
+        height: 650px;
+    }
+    .main_page ul {
+        list-style-image: url(/img/Ellipse\ 8.png);
+        padding-left: 24px;
+    }
+
+
+    .join {
+        text-align: center;
+        line-height: 23px;
+        height: 150px;
+    }
+
+    .join p { 
+        font-size: 14px;
+
+    }
+    .join h3 {
+        font-size: 18px;
+    }
+
+
+
+
+
+    .section_defence {
+        text-align: center;
+        height: 630px;
+    }
+    .def365 {
+        text-align: center;
+        width: 360px;
+        height: 140px;
+    }
+    .def365 h3 {
+        font-size: 18px;
+        padding-top: 20px;
+    }
+    .def365 p {
+        font-size: 14px;
+    }
+
+    .logo_mid {
+        display: none;
+    }
+
+
+    .mg {
+        flex-direction: column;
+        width: 360px;
+        text-align: center;
+    }
+    .deliver {
+        padding: 0;
+    }
+    .change365 {
+        padding: 0;
+        text-align: center;
+        height: 240px;
+        width: 360px;
+    }
+    .change365 h3 , .deliver h3 {
+        font-size: 18px;
+        text-align: center;
+        width: 360px;
+        
+    }
+    .change365 p , .deliver p {
+        font-size: 14px;
+        text-align: center;
+        padding: 0;
+        line-height: 20px;
+    }
+
+
+    footer {
+        height: 350px;
+    }
+
+.foot_nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+
+    .foot_nav p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 0;
+    }
+    .foot_nav h4 {
+        font-size: 18px;
+    }
+    
+}
